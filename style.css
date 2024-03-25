@@ -1,0 +1,338 @@
+div[class*="col-"]{
+  
+    padding: 15px;
+    float: left;
+  }
+  
+  .container{
+  
+    max-width: 1300px;
+    margin: 0 auto;
+  
+  }
+  
+  .row:after{
+     content: "";
+     display: block;
+     clear: both;
+  }
+  
+  
+  *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .col-1{
+     width: 8.33%;
+  }
+  .col-2{
+     width: 16.66%; 
+  }
+  .col-3{
+     width: 25%;
+  }
+  .col-4{
+     width: 33.33%;
+  }
+  .col-5{
+     width: 41.33%;
+  }
+  .col-6{
+     width: 50%;
+  }
+  .col-7{
+     width: 58.33%;
+  }
+  .col-8{
+     width: 66.66%;
+  }
+  .col-9{
+     width: 75%;
+  }
+  .col-10{
+     width: 83.33%;
+  }
+  .col-11{
+     width: 91.66%;
+  }
+  .col-12{
+     width: 100%;
+  }
+  .col-13{
+    width: 40%;
+  }
+  .col-14{
+    width: 20%;
+  }
+  .topheader{
+    width: 100%;
+    text-align: center;
+    background-color: grey;
+    padding: 10px 130px;
+  }
+  .topheader i{
+    color: rgb(35, 119, 152);
+    margin-right: 3px;
+  }
+  .topheader ul{
+    width: 100%;
+    padding: 10px 200px;
+    background-color: grey;
+    list-style: none;
+    margin-bottom: 10px;
+   
+  }
+  .left{
+    float: left;
+    margin-right: 15px;
+  }
+  .right{
+    float: right;
+  }
+  .header{
+    width: 100%;
+    padding: 15px;
+    display: inline-block;
+  }
+  .header img{
+    margin-left: 50px;
+  }
+  .header ul{
+    float: right;
+    list-style: none;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  .header ul li{
+    margin-right: 20px;
+
+  }
+   .topheader  a{
+    text-decoration: none;
+    color: black;
+  }
+  .header a{
+    text-decoration: none;
+    color: rgb(65, 62, 62);
+  }
+  .stonebeat{
+    background-image: url(./photos/banner-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 300px;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+  }
+  .stonebeat h3{
+    color: blue;
+    margin-bottom:20px ;
+
+  }
+  .stonebeat h1{
+    font-size: 90px;
+    font-weight: bold;
+    margin-bottom:20px ;
+
+  }
+  .stonebeat p{
+    color: black;
+    font-size: larger;
+    margin-bottom: 95px;
+  }
+  .stonebeat a{
+    text-decoration: none;
+    padding: 30px 90px;
+    color: aliceblue;
+    background-color: rgb(109, 171, 16);
+    text-align: center;
+    border-radius: 10px;
+    font-size: larger;
+    
+  }
+  .stonebeat a:hover{
+    text-decoration: none;
+    padding: 30px 90px;
+    color:rgb(109, 171, 16);
+    background-color: black;
+    text-align: center;
+    border-radius: 20px;
+    
+    
+  }
+  .photos{
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+  }
+  .off{
+   display:flex;
+
+  }
+  .off .col-4{
+    margin: 10px;
+  }
+  
+  .photos h2{
+    
+    color: rgb(69, 69, 209);
+    margin: 30px 0px;
+  }
+  .headphone p{
+    color: rgb(73, 189, 235);
+    margin-top: 10px;
+    margin-top: 3px;
+  }
+  .headphone button{
+    border: 0 solid white;
+    color: blue;
+    background-color: white;
+    margin: 10px 0;
+  }
+  .headphone .col-3{
+    position: relative;
+    border: 0.5px solid rgba(173, 169, 169, 0.271);
+  }
+  .headphone .sale{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: green;
+    color: aliceblue;
+    padding: 8px 3px ;
+    border-radius: 100%;
+  }
+  .banner{
+    width: 100%;
+    border: 1px solid blue;
+  }
+  .shopnow{
+    text-decoration: none;
+    padding: 20px 40px;
+    background-color: rgb(34, 158, 34);
+    color: aliceblue;
+    margin: 200px 0 150px 0;
+    display: inline-flex;
+    
+  }
+  .shopnow:hover{
+    text-decoration: none;
+    padding: 20px 40px;
+    background-color: rgb(12, 28, 12);
+    color: rgb(34, 158, 34);
+    margin: 200px 0 150px 0;
+    display: inline-flex;
+    border-radius: 20px;
+    
+  }
+  .hr{
+    color: black;
+    margin-bottom: 10px;
+  }
+  .photos .col-12{
+    background-color: gray;
+    text-align: center;
+    color: black;
+
+  }
+  .view{
+    text-decoration: none;
+    padding: 20px 40px;
+    background-color: rgb(34, 158, 34);
+    color: aliceblue;
+    margin:20px 0 50px 0 ;
+    display: inline-flex;
+  }
+  .view:hover{
+    text-decoration: none;
+    padding: 20px 40px;
+    background-color: rgb(12, 28, 12);
+    color: rgb(34, 158, 34);
+    margin:20px 0 50px 0 ;
+    display: inline-flex;
+    border-radius: 20px;
+  }
+  .blue {
+    background-color: rgba(128, 128, 128, 0.67);
+    padding: 10px 50px;
+  }
+  .blue .col-3 {
+    padding: 30px;
+
+  }
+  .blue .col-3 i{
+    color: rgb(43, 120, 151);
+  }
+  .blue .col-9 h4{
+    color: rgb(43, 120, 151);
+  }
+  .last{
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    padding: 50px 100px;
+  }
+  .last img{
+    background-color: aliceblue;
+  }
+  .col-13 p{
+    margin: 10px 0;
+    font-weight: lighter;
+  }
+  .col-13 h4 i{
+    color: blue;
+    margin-right: 5px;
+
+  }
+  .col-13 h4{
+    font-weight: lighter;
+    margin-top: 5px;
+  }
+  .col-14 h4{
+    margin: 20px 0;
+  }
+  .col-14 a{
+    text-decoration: none;
+    color: aliceblue;
+  }
+  .col-13 input[type="email"]{
+    width: 100%;
+    padding: 5px 0 5px 10px;
+    text-align: left;
+    
+  }
+  form{
+    display: inline-block;
+  }
+  .col-13 input[type="submit"]{
+    margin-top: 10px;
+    background-color:rgb(20, 112, 148) ;
+    color: aliceblue;
+    padding: 5px 15px;
+  }
+  .fb{
+    margin-top: 19px;
+  }
+  .fb a{
+    background-color: aliceblue;
+    color: black;
+    padding: 9px;
+    border-radius: 100%;
+    margin: 10px;
+    text-decoration: none;
+    font-size: larger;
+  }
+  .col-6 img{
+    background-color: black;
+    
+  }
+  .last .col-6{
+   margin: 15px 0 5px 0;
+   
+  }
+ 
+
+
+
